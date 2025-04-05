@@ -1,0 +1,88 @@
+/* General app background */
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title styling */
+h1, h2, h3 {
+    color: #2e7d32;
+}
+
+/* Streamlit buttons */
+.stButton > button {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.stButton > button:hover {
+    background-color: #388e3c;
+}
+
+/* Inputs (text fields, etc.) */
+input[type="text"], input[type="email"], input[type="password"], .stTextInput > div > input {
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+
+/* Forms */
+form {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #a5d6a7;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Table styling */
+.stDataFrame {
+    background-color: white;
+    border-radius: 1px;
+    padding: 1px;
+    border: 1px solid #c5e1a5;
+}
+
+/* Messages */
+div.stAlert {
+    border-radius: 6px;
+    padding: 10px;
+}
+
+/* Success, Info, Warning Colors */
+.stAlert-success {
+    background-color: #d0f0c0;
+    color: #2e7d32;
+}
+
+.stAlert-info {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+.stAlert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+/* Email history and previous logs */
+.email-log, .request-log {
+    font-family: monospace;
+    background: #f1f8e9;
+    padding: 10px;
+    border-left: 5px solid #8bc34a;
+    margin-bottom: 10px;
+}
+
+/* Footer or secondary text */
+.small-text {
+    font-size: 0.8rem;
+    color: #666;
+}
